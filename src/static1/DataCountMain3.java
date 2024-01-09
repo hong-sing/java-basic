@@ -10,5 +10,10 @@ public class DataCountMain3 {
 
         Data3 data3 = new Data3("C");
         System.out.println("C count=" + Data3.count);
+
+        Data3 data4 = new Data3("D");
+        System.out.println(data4.count); // 정적 변수의 경우 인스턴스를 통한 접근은 추천하지 않음
+        System.out.println(Data3.count);
+
     }
 }
